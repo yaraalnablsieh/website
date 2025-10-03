@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: sans-serif, 'Courier New', Courier, monospace;
+    }
+
+    body {
+      background-image: url("WhatsApp Image 2025-10-03 at 02.56.15_174a0f0c.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 100vh;
+    }
+
+    /* Header */
+    .header {
+      display: flex;
+      background-color: rgba(74, 74, 177, 0.123);
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 30px;
+    }
+
+    .logo a {
+      font-size: xx-large;
+      font-family: cursive;
+      font-weight: 600;
+      text-transform: capitalize;
+      color: white;
+      text-decoration: none;
+    }
+
+    .links {
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+      align-items: center;
+    }
+
+    .links a {
+      text-transform: capitalize;
+      color: white;
+      font-size: small;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .links a:hover {
+      color: rgba(250, 244, 244, 0.514);
+    }
+
+    /* Hero Section */
+    .div2 {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 40px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .div2 h1 {
+      color: aliceblue;
+      font-size: 40px;
+      font-weight: bold;
+      padding: 16px;
+    }
+
+    .div2 p {
+      color: aliceblue;
+      font-size: 16px;
+      max-width: 600px;
+      padding: 18px;
+    }
+
+    .div2 .buttons {
+      margin-top: 20px;
+    }
+
+    .div2 .buttons a {
+      text-decoration: none;
+      padding: 12px 25px;
+      margin: 0 10px;
+      border-radius: 6px;
+      font-size: 18px;
+      transition: 0.3s;
+    }
+
+    .btn1 {
+      background: rgba(255, 255, 255, 0.247);
+      color: rgba(223, 238, 159, 0.9);
+    }
+
+    .btn1:hover {
+      background: rgb(77, 77, 82);
+      color: white;
+    }
+
+    .btn2 {
+      background: rgba(255, 255, 255, 0.185);
+      color: rgba(223, 238, 159, 0.9);
+    }
+
+    .btn2:hover {
+      background: rgb(77, 77, 82);
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <div class="header">
+    <div class="logo">
+      <a href="#">CodingLab</a>
+    </div>
+    <div class="links">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Contact</a>
+      <a href="#">Feedback</a>
+    </div>
+  </div>
+
+  <!-- Hero Section -->
+  <div class="div2">
+    <h1>Amazing Website</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, provident saepe pariatur distinctio vitae ut molestiae officia optio.</p>
+    <div class="buttons">
+      <a href="#" class="btn2">Learn More</a>
+      <a href="#" class="btn1">Subscribe</a>
+    </div>
+  </div>
+</body>
+</html>

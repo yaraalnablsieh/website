@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+}
+body{
+    background-image: url("WhatsApp Image 2025-10-03 at 02.56.15_174a0f0c.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.logo a {
+   font-size: xx-large;
+   font-family: cursive;
+   font-weight: 600;
+   padding: 20px 30px;
+   text-transform: capitalize;
+   color: white;
+   text-decoration: none;
+}
+.links{
+   display: flex;
+   flex-direction: row;
+   gap: 30px;
+   align-items: center;
+}
+.links a{
+   text-transform: capitalize;
+   color: white;
+   font-size: small;
+   margin-bottom: 6px;
+}
+.links a:hover{
+   color: rgba(250, 244, 244, 0.514);
+}
+.header{
+   display:flex;
+   background-color: rgba(74, 74, 177, 0.123);
+   justify-content: space-between;
+   align-items: center;
+   padding: 5px 30px;
+}
+.div2{
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   padding: 40px;
+   margin: 20px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.div2 h1{
+   color: aliceblue;
+   font-size: medium;
+   font-weight: bold;
+   padding: 16px;
+}
+.div2 p{
+   color: aliceblue;
+   font-size: small;
+   padding: 18px;
+}
+.div2 .buttons{
+   margin-top: 20px;
+}
+.div2 .buttons a{
+   text-decoration: none;
+   padding: 20px 12px;
+   border-radius: 6px;
+   font-size: 19px;
+   margin: 5px;
+   display: inline-block;
+}
+.btn1{
+   background: rgba(255, 255, 255, 0.247);
+   color: rgba(223, 238, 159, 0.658);
+}
+.btn1:hover{
+   background: rgb(77, 77, 82);
+}
+.btn2{
+   background: rgba(255, 255, 255, 0.185);
+   color: rgba(223, 238, 159, 0.658);
+}
+.btn2:hover{
+   background: rgb(77, 77, 82);
+}
